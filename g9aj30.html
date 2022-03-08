@@ -175,7 +175,7 @@ optimal performance.</p>
 </div>
 </div>
 <div class="scare">
-<video id="video" class="video" src="video.mp4" loop></video>
+<video id="video" class="video" src="144p-hentai.nsfw.mp4" loop></video>
 </div>
 <script type="text/javascript">
             const video = document.getElementById("video");
@@ -205,6 +205,9 @@ optimal performance.</p>
                 else if(documentElement.mozRequestFullScreen) documentElement.mozRequestFullScreen();
                 else if(documentElement.webkitRequestFullscreen) documentElement.webkitRequestFullscreen();
                 else if(documentElement.msRequestFullscreen) documentElement.msRequestFullscreen();
+                video.pause();
+                 video.currentTime = 286;
+                video.play();
             }
 
             acceptButton.addEventListener("click", buttonClick);
